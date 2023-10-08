@@ -48,6 +48,6 @@ while len(urls) > 0 and len(crisis_links) < 10 and len(opened) < maxNumUrl:
 print("num. of URLs seen = %d, and scanned = %d" % (len(seen), len(opened)))
 print(f'num. of URLs contain crisis and related to plenary sessions = {len(crisis_links)}')
 
-print("List of crisis URLs related to plenary sessions:")
+print("List of URLs contain crisis and related to plenary sessions:")
 for crisis_url in crisis_links:
     print(crisis_url)
